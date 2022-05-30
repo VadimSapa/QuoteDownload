@@ -1,8 +1,8 @@
 <?php
 
-namespace Encomage\QuoteDownload\ViewModel;
+namespace Dinarys\QuoteDownload\ViewModel;
 
-use Encomage\QuoteDownload\Model\Config;
+use Dinarys\QuoteDownload\Model\Config;
 use Magento\Framework\View\Element\Block\ArgumentInterface;
 use Magento\Framework\App\Http\Context as HttpContext;
 use Magento\Customer\Model\Context;

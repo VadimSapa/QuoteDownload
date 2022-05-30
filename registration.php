@@ -6,4 +6,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Encomage_QuoteDownload', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Dinarys_QuoteDownload', __DIR__);

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <type name="Encomage\QuoteDownload\Model\Cart\Converter\ToCsv">
+    <type name="Dinarys\QuoteDownload\Model\Cart\Converter\ToCsv">
         <arguments>
             <argument name="fileName" xsi:type="string">Quote.csv</argument>
             <argument name="allowedFields" xsi:type="array">

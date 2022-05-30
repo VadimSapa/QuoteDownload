@@ -1,6 +1,6 @@
 <?php
 
-namespace Encomage\QuoteDownload\Model\Cart\Converter;
+namespace Dinarys\QuoteDownload\Model\Cart\Converter;
 
 use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Framework\Filesystem;

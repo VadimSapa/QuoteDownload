@@ -1,6 +1,6 @@
 <?php
 
-namespace Encomage\QuoteDownload\Model;
+namespace Dinarys\QuoteDownload\Model;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
