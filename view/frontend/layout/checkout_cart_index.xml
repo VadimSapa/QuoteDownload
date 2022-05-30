@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="checkout.cart.form.before">
+            <block template="Encomage_QuoteDownload::download_csv.phtml"
+                   name="download_quote_csv"
+            >
+                <arguments>
+                    <argument name="view_model" xsi:type="object">Encomage\QuoteDownload\ViewModel\DownloadCsv</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

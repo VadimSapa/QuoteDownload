@@ -1,0 +1,22 @@
+<?php
+
+use Encomage\QuoteDownload\ViewModel\DownloadCsv;
+
+/**
+ * @var Magento\Framework\View\Element\Template $block
+ * @var Magento\Framework\Escaper $escaper
+ * @var DownloadCsv $viewModel
+ */
+
+$viewModel = $block->getViewModel();
+if (!$viewModel) {
+    return '';
+}
+if (!$viewModel->isEnabled()) {
+    return '';
+}
+?>
+
+<a href="<?= $escaper->escapeUrl($viewModel->getDownloadUrl()) ?>">
+    <?= $escaper->escapeHtml(__('Download CSV')) ?>
+</a>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Encomage\QuoteDownload\Model\Cart\Converter\ToCsv">
+        <arguments>
+            <argument name="fileName" xsi:type="string">Quote.csv</argument>
+            <argument name="allowedFields" xsi:type="array">
+                <item name="name" xsi:type="string">name</item>
+                <item name="price" xsi:type="string">price</item>
+                <item name="qty" xsi:type="string">qty</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
